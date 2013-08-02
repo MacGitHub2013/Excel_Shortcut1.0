@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.macsystems.b.excel_shortcuts"
+        versionCode="1" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Encrypt Text</name>
+
+    <description>
+        Quick guide on Excel Shortcuts. Learn and check your progress through a test. Daily tips, search by shortcut or function.
+    </description>
+
+    <author href="" email="bhanusinha.apps@gmail.com">
+        Bhanu Sinha 
+    </author>
+    
+   
+   <icon src="logo.png" />
+
+</widget>
