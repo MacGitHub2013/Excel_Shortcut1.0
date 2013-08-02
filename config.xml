@@ -7,14 +7,15 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Encrypt Text</name>
+    <name>Excel Shortcuts</name>
 
     <description>
-        Quick guide on Excel Shortcuts. Learn and check your progress through a test. Daily tips, search by shortcut or function.
+      -        Quick guide on Excel Shortcuts. Learn and check your progress through a test. Daily tips, search by shortcut or function.
+
     </description>
 
     <author href="" email="bhanusinha.apps@gmail.com">
-        Bhanu Sinha 
+       Macsystems Bhanu Sinha 
     </author>
     
    
