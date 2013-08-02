@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1" >
+
+<link href="styles/jquery.mobile.css" rel="stylesheet" >
+<link href="styles/test.css" rel="StyleSheet" />
+
+<script src="js/jquery.js" ></script>
+<script src="js/jquery.mobile.js" ></script>
+<script src="js/test_beta.js" ></script>
+
+
+<script src="js/main.js" ></script>
+
+
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="tipPage" data-theme="a" >
+
+<div data-role="panel" id="tleftMenu" data-display="overlay" data-theme="b"  >
+
+<h2  >Menu</h2>
+<ul data-role="listview" data-inset="true" data-mini="true" >
+<li> <a href="#" >Daily Tip </a><img src="images/tips.png"  /> </li>
+<li> <a href="#" onclick="loadTestPage()" > Test </a> <img src="images/test1.png"  /> </li>
+<li  > <a href="#contentPage" >All Content</a>  <img src="images/content.png" /></li>
+</ul>
+</div>
+
+
+<div data-role="header" >
+<a href="#tleftMenu" data-role="button" data-icon="grid" data-inline="true"  >Menu</a>
+<h1> Excel Shortcuts </h1>
+</div>
+<div data-role="content"  >
+<div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed='false'  >
+<h2> Tip of The Day</h2>
+<div id="tipContainer" >
+</div>
+<button onclick="showTip()" data-inline='true' data-icon="arrow-r" data-iconpos="right" >Next Tip</button>
+</div>
+</div>
+<div data-role="footer"  data-position="fixed" >Share Facebook
+</div>
+
+
+
+
+
+
+</div>
+<div data-role="page" id="contentPage" data-theme="a" >
+
+<div data-role="panel" id="cleftMenu" data-display="overlay" data-theme="b"  >
+
+<h2  >Menu</h2>
+<ul data-role="listview" data-inset="true" >
+<li> <a href="#tipPage" >Daily Tip </a><img src="images/tips.png"  /> </li>
+<li> <a href="#" onclick="loadTestPage()" > Test </a> <img src="images/test1.png"  /> </li>
+<li> <a href="#" >All Content</a>  <img src="images/content.png"  /></li>
+</ul>
+</div>
+
+
+<div data-role="header" >
+<a href="#cleftMenu" data-role="button" data-icon="grid"  data-inline="true" >Menu</a> 
+<h1> Excel Shortcuts</h1>
+</div>
+<div data-role="content" id="divContent" >
+
+</div>
+
+</div>
+<div data-role="page" id="testPage" data-theme="a" >
+
+<div data-role="panel" id="t1leftMenu" data-display="overlay" data-theme="b"  >
+
+<h2  >Menu</h2>
+<ul data-role="listview" data-inset="true" >
+<li> <a href="#tipPage" >Daily Tip </a><img src="images/tips.png"  /> </li>
+<li> <a href="#" > Test </a><img src="images/test.png"  /> </li>
+<li> <a href="#contentPage" >All Content</a><img src="images/content.png"  /></li>
+</ul>
+
+</div>
+
+
+<div data-role="panel" id="settingsMenu" data-position="right" data-display="overlay" data-swipe-close="false"  data-theme="b" >
+
+
+<div id="divSettings" data-theme="b" >
+<h2> Settings </h2>
+
+<div data-role="fieldcontain" class="ui-hide-label" >
+<label for="txtName">
+Name
+</label>
+<input type='text' name="txtName" id="txtName" placeholder="User Name" data-mini='true'  > 
+
+<label for = "txtMax_Q" >
+Maximum Question
+</label>
+<input type="number" name="txtMax_Q" id="txtMax_Q" placeholder="Total Questions" data-mini='true' ></input>
+<label for="txtScoreUnit" >
+Score Unit
+</label>
+<input type="number" name="txtScoreUnit" id="txtScoreUnit" placeholder="Score per Question" data-mini='true' ></input>
+
+Negetive Marking 
+<select name="negMark" id="negMark" data-role="slider" data-mini='true' >
+<option value="Yes" >Yes </option>
+<option value="No" selected > No </option>
+</select>
+
+<label for="txtTimeDuration" >
+Time Duration
+</label>
+<input type="number" name="txtTimeDuration" id="txtTimeDuration" placeholder="Time Duration(Minute)" data-mini='true' ></input>
+Number of Options
+<select id="sltOptions" name="sltOptions" placeholder="Answer Options" data-placeholder=true data-native-menu="false" data-mini='true' >
+<option value=4 selected >4</option>
+<option value=3 >3</option>
+<option value=2 >2</option>
+<option value=5 >5</option>
+</select>
+
+<label for="Invert" >
+Invert 
+</label>
+<input type=checkbox id="Invert"   value="Invert" data-mini='true' ></input>
+
+<div class="ui-grid-a" >
+<div class="ui-block-a" >
+<button id="btnLoadDefault" data-icon="gear" data-inline="true" onclick="loadDefaultSettings()" data-mini='true' >Default Settings</button>
+</div>
+<div class="ui-block-b" >
+<button id="btnSave" data-icon="check" data-inline="true" data-mini='true' >Start</button>
+
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+<div data-role="header" >
+<a href="#t1leftMenu" data-role="button"  data-inline="true" data-icon="grid" >Menu</a> 
+<h2>Test Your Knowledge</h2>
+
+</div>
+<div data-role="content" >
+<span id="spanSettings" >
+<button id="btnStopTest" data-inline='true' data-icon="delete" data-mini='true' >Stop Test </button>
+<a href="#settingsMenu" data-role="button" data-icon="gear" data-mini='true' data-inline="true" >Settings</a>
+<span id="spanMessage1" ></span>
+</span>
+<div id="divContainer" >
+<div id="divHeader" data-role="header" data-theme="e" >
+
+<span id="spanTime" style="float:left;"  ></span>
+<span id="spanName" >  </span> | <span id="spanMax_Q" ></span> | <span id="spanScoreUnit" > </span> | <span id="spanNeg" ></span> 
+
+</div>
+<div data-role="fieldcontain" class="ui-hide-label" >
+<div id="divQuestions"></div>
+</div>
+<div id="divControls" data-role="header" >
+
+<span class="controls" id="spanControls"  >
+<button id="btnBack" data-inline='true' data-icon="arrow-l" data-mini='true' >Back</button>
+<button id="btnNext" data-inline='true' data-icon="arrow-r" data-iconpos="right"  data-mini='true' >Next</button>
+</span>
+<span id="spanButton" >
+<button id="btnResult1" data-inline='true' data-mini='true' data-icon="info" > Show Result</button>
+
+</span>
+
+<span id="spanMessage" ></span>
+</div>
+
+
+</div>
+
+<div id="divResultDetails" data-theme="b" >
+
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+<div data-role="dialog" id="dialogSummary" >
+<div data-role="header">
+<h2> Test Summary </h2><a href="#" data-rel="back" data-icon="delete" >Close </a>
+</div>
+<div data-role="content" id="resultSummary" ></div>
+
+
+</div>
+</body>
+</html>

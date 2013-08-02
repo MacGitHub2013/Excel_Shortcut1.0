@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<Doc xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+ <Record>
+  <Question>CTRL+1</Question>
+  <Answer>Displays the Format Cells dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+2</Question>
+  <Answer>Applies or removes bold formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+3</Question>
+  <Answer>Applies or removes italic formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+4</Question>
+  <Answer>Applies or removes underlining.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+5</Question>
+  <Answer>Applies or removes strikethrough.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+6</Question>
+  <Answer>Alternates between hiding and displaying objects.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+8</Question>
+  <Answer>Displays or hides the outline symbols.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+9</Question>
+  <Answer>Hides the selected rows.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+0</Question>
+  <Answer>Hides the selected columns.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+A</Question>
+  <Answer>Selects the entire worksheet.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+B</Question>
+  <Answer>Applies or removes bold formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+C</Question>
+  <Answer>Copies the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+D</Question>
+  <Answer>Uses the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+F</Question>
+  <Answer>Displays the Find and Replace dialog box, with the Find tab selected.</Answer>
+ </Record>
+ <Record>
+  <Question>SHIFT+F4</Question>
+  <Answer>Repeats the last Find action.</Answer>
+ </Record>
+ <Record>
+  <Question>SHIFT+F5</Question>
+  <Answer>Displays the Find and Replace dialog box</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+F</Question>
+  <Answer>Opens the Format Cells dialog box with the Font tab selected.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+G</Question>
+  <Answer>Displays the Go To dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>F5</Question>
+  <Answer>Displays the Go To dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+H</Question>
+  <Answer>Displays the Find and Replace dialog box, with the Replace tab selected.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+I</Question>
+  <Answer>Applies or removes italic formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+K</Question>
+  <Answer>Displays the Insert Hyperlink dialog box for new hyperlinks or the Edit Hyperlink dialog box for selected existing hyperlinks.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+L</Question>
+  <Answer>Displays the Create Table dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+N</Question>
+  <Answer>Creates a new, blank workbook.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+O</Question>
+  <Answer>Displays the Open dialog box to open or find a file.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+O</Question>
+  <Answer>Selects all cells that contain comments.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+P</Question>
+  <Answer>Displays the Print tab in Microsoft Office Backstage view.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+P</Question>
+  <Answer>Opens the Format Cells dialog box with the Font tab selected.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+R</Question>
+  <Answer>Uses the Fill Right command to copy the contents and format of the leftmost cell of a selected range into the cells to the right.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+S</Question>
+  <Answer>Saves the active file with its current file name, location, and file format.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+T</Question>
+  <Answer>Displays the Create Table dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+U</Question>
+  <Answer>Applies or removes underlining.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+U </Question>
+  <Answer>Switches between expanding and collapsing of the formula bar.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+V</Question>
+  <Answer>Inserts the contents of the Clipboard at the insertion point and replaces any selection. Available only after you have cut or copied an object, text, or cell contents.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+ALT+V</Question>
+  <Answer>Displays the Paste Special dialog box. Available only after you have cut or copied an object, text, or cell contents on a worksheet or in another program.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+W</Question>
+  <Answer>Closes the selected workbook window.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+X</Question>
+  <Answer>Cuts the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Y</Question>
+  <Answer>Repeats the last command or action, if possible.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Z</Question>
+  <Answer>Uses the Undo command to reverse the last command or to delete the last entry that you typed.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+(</Question>
+  <Answer>Unhides any hidden rows within the selection.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+ &amp;amp;</Question>
+  <Answer>Applies the outline border to the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+_</Question>
+  <Answer>Removes the outline border from the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+~</Question>
+  <Answer>Applies the General number format.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+$</Question>
+  <Answer>Applies the Currency format with two decimal places (negative numbers in parentheses).</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+%</Question>
+  <Answer>Applies the Percentage format with no decimal places.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+^</Question>
+  <Answer>Applies the Scientific number format with two decimal places.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+#</Question>
+  <Answer>Applies the Date format with the day, month, and year.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+@</Question>
+  <Answer>Applies the Time format with the hour and minute, and AM or PM.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+!</Question>
+  <Answer>Applies the Number format with two decimal places, thousands separator, and minus sign (-) for negative values.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+*</Question>
+  <Answer>Selects the current region around the active cell (the data area enclosed by blank rows and blank columns).</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+:</Question>
+  <Answer>Enters the current time.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+&quot;</Question>
+  <Answer>Copies the value from the cell above the active cell into the cell or the Formula Bar.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+Plus (+)</Question>
+  <Answer>Displays the Insert dialog box to insert blank cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Minus (-)</Question>
+  <Answer>Displays the Delete dialog box to delete the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+;</Question>
+  <Answer>Enters the current date.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+`</Question>
+  <Answer>Alternates between displaying cell values and displaying formulas in the worksheet.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+&#39;</Question>
+  <Answer>Copies a formula from the cell above the active cell into the cell or the Formula Bar.</Answer>
+ </Record>
+</Doc>

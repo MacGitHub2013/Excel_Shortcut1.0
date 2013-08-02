@@ -1,0 +1,44 @@
+#divSettings h2 {
+    color: #555;
+    margin: 0.3em 0 .8em 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.ui-grid-a {
+    margin-top: 1em;
+    padding-top: .8em;
+    margin-top: 1.4em;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#divHeader
+{
+ padding:.5em;
+}
+
+#divHeader span
+{
+ padding-left:.3em;
+
+}
+[data-role='panel'] h2
+{
+  color: #555;
+ border-bottom: 1px solid rgba(0,0,0,.1);
+}
+#divResultDetails div
+{
+
+border-top: 1px solid rgba(0,0,0,.1);
+padding-top: .2em;
+
+}
+
+#divSettings .ui-block-b
+{
+ padding-left:2em;
+ float:left;
+
+}
+

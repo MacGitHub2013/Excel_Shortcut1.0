@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<Doc xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+ <Record>
+  <Question>CTRL+0</Question>
+  <Answer>Add or remove one line space preceding a paragraph.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+1</Question>
+  <Answer>Single-space lines.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+2</Question>
+  <Answer>Double-space lines.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+5</Question>
+  <Answer>Set 1.5-line spacing.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+B</Question>
+  <Answer>Make letters bold.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+C</Question>
+  <Answer>Copy the selected text or object.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+D</Question>
+  <Answer>Open the Font dialog box to change the formatting of characters.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+E</Question>
+  <Answer>Switch a paragraph between centered and left-aligned.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+F</Question>
+  <Answer>Open the Navigation task pane (to search document).</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+G</Question>
+  <Answer>Go to a page, bookmark, footnote, table, comment, graphic, or other location.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+H</Question>
+  <Answer>Replace text, specific formatting, and special items.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+I</Question>
+  <Answer>Make letters italic.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+J</Question>
+  <Answer>Switch a paragraph between justified and left-aligned.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+L</Question>
+  <Answer>Left align a paragraph.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+M</Question>
+  <Answer>Indent a paragraph from the left.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+N</Question>
+  <Answer>Create a new document.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+O</Question>
+  <Answer>Open a document.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+P</Question>
+  <Answer>Print a document.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Q</Question>
+  <Answer>Remove paragraph formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+R</Question>
+  <Answer>Switch a paragraph between right-aligned and left-aligned.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+S</Question>
+  <Answer>Save a document.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+U</Question>
+  <Answer>Applies or removes underlining.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+V</Question>
+  <Answer>Paste</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+W</Question>
+  <Answer>Closes the  document</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+X</Question>
+  <Answer>Cuts the selected cells.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Y</Question>
+  <Answer>Repeats the last command or action, if possible.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Z</Question>
+  <Answer>Uses the Undo command to reverse the last command or to delete the last entry that you typed.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+[</Question>
+  <Answer>Decrease font size 1 point.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+]</Question>
+  <Answer>Increase font size 1 point.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+MINUS SIGN</Question>
+  <Answer>An en dash</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+HOME</Question>
+  <Answer>Move to the first preview page when zoomed out.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+HYPHEN</Question>
+  <Answer>An optional hyphen</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+END</Question>
+  <Answer>Move to the last preview page when zoomed out.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+ENTER</Question>
+  <Answer>A page break</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+EQUAL SIGN</Question>
+  <Answer>Apply subscript formatting (automatic spacing).</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+&lt;</Question>
+  <Answer>Decrease font size one value.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+&lt;</Question>
+  <Answer>Decrease the font size.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+&gt;</Question>
+  <Answer>Increase font size one value.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+&gt;</Question>
+  <Answer>Increase the font size.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+A</Question>
+  <Answer>Format all letters as capitals.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+C</Question>
+  <Answer>Copy formatting from text.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+C</Question>
+  <Answer>Copy formats.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+D</Question>
+  <Answer>Double-underline text.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+E</Question>
+  <Answer>Turn change tracking on or off.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+ENTER</Question>
+  <Answer>A column break</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+F</Question>
+  <Answer>Open the Font dialog box to change the font.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+G</Question>
+  <Answer>Open the Word Count dialog box.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+H</Question>
+  <Answer>Apply hidden text formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+HYPHEN</Question>
+  <Answer>Create a nonbreaking hyphen.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+HYPHEN</Question>
+  <Answer>A nonbreaking hyphen</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+K</Question>
+  <Answer>Format letters as small capitals.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+M</Question>
+  <Answer>Remove a paragraph indent from the left.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+N</Question>
+  <Answer>Demote to body text.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+PLUS SIGN</Question>
+  <Answer>Apply superscript formatting (automatic spacing).</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+Q</Question>
+  <Answer>Change the selection to the Symbol font.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+SPACEBAR</Question>
+  <Answer>Create a nonbreaking space.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+SPACEBAR</Question>
+  <Answer>A nonbreaking space</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+T</Question>
+  <Answer>Reduce a hanging indent.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+V</Question>
+  <Answer>Paste formatting only</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+V</Question>
+  <Answer>Apply copied formatting to text.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+V</Question>
+  <Answer>Paste formats.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SHIFT+W</Question>
+  <Answer>Underline words but not spaces.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SPACEBAR</Question>
+  <Answer>Remove paragraph or character formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+SPACEBAR</Question>
+  <Answer>Remove manual character formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+T</Question>
+  <Answer>Create a hanging indent.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+TAB</Question>
+  <Answer>Insert a tab character.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+U</Question>
+  <Answer>Make letters underline.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+U</Question>
+  <Answer>Apply an underline.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+V</Question>
+  <Answer>Paste text or an object.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+W</Question>
+  <Answer>Close a document.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+X</Question>
+  <Answer>Cut the selected text or object.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Y</Question>
+  <Answer>Redo the last action.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+Z</Question>
+  <Answer>Undo the last action.</Answer>
+ </Record>
+ <Record>
+  <Question>CTRL+ALT+V</Question>
+  <Answer>Paste special</Answer>
+ </Record>
+ <Record>
+  <Question>PAGE UP or PAGE DOWN</Question>
+  <Answer>Move by one preview page when zoomed out.</Answer>
+ </Record>
+ <Record>
+  <Question>SHIFT+ENTER</Question>
+  <Answer>A line break</Answer>
+ </Record>
+ <Record>
+  <Question>SHIFT+F3</Question>
+  <Answer>Change the case of letters.</Answer>
+ </Record>
+ <Record>
+  <Question>The slash (/) key on the numeric keypad</Question>
+  <Answer>Hide or display character formatting.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+C</Question>
+  <Answer>The copyright symbol</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+D</Question>
+  <Answer>Insert an endnote.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+F</Question>
+  <Answer>Insert a footnote.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+I</Question>
+  <Answer>Switch to print preview.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+M</Question>
+  <Answer>Insert a comment.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+MINUS SIGN</Question>
+  <Answer>An em dash</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+N</Question>
+  <Answer>Switch to Draft view.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+O</Question>
+  <Answer>Switch to Outline view.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+P</Question>
+  <Answer>Switch to Print Layout view.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+PERIOD</Question>
+  <Answer>An ellipsis</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+R</Question>
+  <Answer>The registered trademark symbol</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+S</Question>
+  <Answer>Split the document window.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+T</Question>
+  <Answer>The trademark symbol</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+Y</Question>
+  <Answer>Repeat find (after closing Find and Replace window).</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+CTRL+Z</Question>
+  <Answer>Switch between the last four places that you have edited.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+1</Question>
+  <Answer>Show all headings with the Heading 1 style.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+A</Question>
+  <Answer>Expand or collapse all text or headings.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+C</Question>
+  <Answer>Close the Reviewing Pane if it is open.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+C or ALT+CTRL+S</Question>
+  <Answer>Remove the document window split.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+DOWN ARROW</Question>
+  <Answer>Move selected paragraphs down.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+I</Question>
+  <Answer>Mark a table of authorities entry (citation).</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+L</Question>
+  <Answer>Show the first line of body text or all body text.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+LEFT ARROW</Question>
+  <Answer>Promote a paragraph.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+MINUS SIGN</Question>
+  <Answer>Collapse text under a heading.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+n</Question>
+  <Answer>Show all headings up to Heading n.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+O</Question>
+  <Answer>Mark a table of contents entry.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+PLUS SIGN</Question>
+  <Answer>Expand text under a heading.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+RIGHT ARROW</Question>
+  <Answer>Demote a paragraph.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+UP ARROW</Question>
+  <Answer>Move selected paragraphs up.</Answer>
+ </Record>
+ <Record>
+  <Question>ALT+SHIFT+X</Question>
+  <Answer>Mark an index entry.</Answer>
+ </Record>
+ <Record>
+  <Question>Arrow keys</Question>
+  <Answer>Move around the preview page when zoomed in.</Answer>
+ </Record>
+</Doc>
